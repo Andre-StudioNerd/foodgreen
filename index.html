@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -13,14 +13,11 @@
 
     <link href="src/images/favicon.png" rel="icon" />
     <link href="src/images/favicon.png" rel="apple-touch-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <link rel="stylesheet" href="src/styles/styles.css" />
+    <link rel="stylesheet" href="src/styles/all.min.css" />
+
+    <script src="src/javascript/scrollreveal.min.js"></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -28,13 +25,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Landing page</title>
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+        <i class="fa-solid fa-burger" id="nav_logo">food</i>
 
         <ul id="nav_list">
           <li class="nav-item active">
@@ -50,7 +53,12 @@
 
         <button
           class="btn-default"
-          onclick="window.open('https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!', '_blank')"
+          onclick="
+            window.open(
+              'https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!',
+              '_blank',
+            )
+          "
         >
           Peça aqui
         </button>
@@ -93,7 +101,7 @@
           </p>
 
           <div id="cta_buttons">
-            <a href="#menu" class="btn-default"> Ver cardápio </a>
+            <a href="#menu" class="btn-default">Ver cardápio</a>
 
             <a href="tel:+55555555555" id="phone_button">
               <button class="btn-default">
@@ -158,7 +166,12 @@
               <h4>R$20,00</h4>
               <button
                 class="btn-default"
-                onclick="window.open('https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!', '_blank')"
+                onclick="
+                  window.open(
+                    'https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!',
+                    '_blank',
+                  )
+                "
               >
                 <i class="fa-solid fa-basket-shopping"></i>
               </button>
@@ -192,7 +205,12 @@
               <h4>R$20,00</h4>
               <button
                 class="btn-default"
-                onclick="window.open('https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!', '_blank')"
+                onclick="
+                  window.open(
+                    'https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!',
+                    '_blank',
+                  )
+                "
               >
                 <i class="fa-solid fa-basket-shopping"></i>
               </button>
@@ -226,7 +244,12 @@
               <h4>R$20,00</h4>
               <button
                 class="btn-default"
-                onclick="window.open('https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!', '_blank')"
+                onclick="
+                  window.open(
+                    'https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!',
+                    '_blank',
+                  )
+                "
               >
                 <i class="fa-solid fa-basket-shopping"></i>
               </button>
@@ -260,7 +283,12 @@
               <h4>R$20,00</h4>
               <button
                 class="btn-default"
-                onclick="window.open('https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!', '_blank')"
+                onclick="
+                  window.open(
+                    'https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20meu%20pedido!',
+                    '_blank',
+                  )
+                "
               >
                 <i class="fa-solid fa-basket-shopping"></i>
               </button>
@@ -331,7 +359,7 @@
       <img src="src/images/wave.svg" alt="" />
 
       <div id="footer_items">
-        <span id="copyright"> &copy 2025 André L. Fernandes </span>
+        <span id="copyright">&copy 2025 André L. Fernandes</span>
 
         <div class="social-media-buttons">
           <a
